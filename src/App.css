@@ -26,3 +26,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#navBar {
+  width: 100%;
+  background-color: gray;
+  height: 25px;
+}
+
+.navButton {
+  text-decoration: none;
+  float: left;
+  align-content: left;
+  height: 25px;
+  width: 75px;
+}
+
+.navButton:hover {
+  background-color: lightslategray;
+}
